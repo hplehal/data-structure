@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function NavMenu() {
     return(
       <nav className="nav">
-        <h1 className="nav-header">Data Structure</h1>
+        <h1 className="nav-header"><Link href={'/'}>Data Structure</Link></h1>
         <ul className="nav-menu">
             <li>
                 <Link href={'/'}>Home</Link>
             </li>
             <li>
-                <Link href={'/data-structure'}>Data Structure</Link>
+                <Link href={'/summary'}>Summary</Link>
             </li>
             <li>
                 <Link href={'/algorithm'}>Algorithms</Link>

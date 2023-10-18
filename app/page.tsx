@@ -15,50 +15,11 @@ export default function Home() {
         />
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
+      <div>
+        <p>What is coding? Coding is just manipulating data. for example You are in the front end and needed to get data from the backend or requesting data then transforming that data to specific a specific format that will be readable to regular humans then showing that data on a website or phone application.</p>
+        <p>This also happens when you are working on APIs. you are storing or retrieving data from the database and sending it the client who requested that specific data. </p>
+        <p>ALL SOFTWARE ENGINEERS DO IS MOVING DATA FROM ONE PLACE TO ANOTHER!</p>
+        <p>Manipulating data is what data structures is derived to. It diffeerent way to derive and manipulate, structure or organize data. In smaller word DATA STRUCTURES is just a way to organize and manage data. </p>
       </div>
     </main>
   )
